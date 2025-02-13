@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Proxy requests to Next.js app (running on port 3000)
+ProxyPass / http://localhost:3000/
+ProxyPassReverse / http://localhost:3000/

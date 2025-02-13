@@ -1,0 +1,10 @@
+# Enable mod_rewrite for URL rewriting
+RewriteEngine On
+
+# Ensure that all requests are redirected to index.html to support client-side routing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+
+# Optional: Handle 404 errors by serving a custom 404 page
+ErrorDocument 404 /index.html
