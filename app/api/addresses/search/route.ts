@@ -8,7 +8,6 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: true, message: 'Query parameter is missing' }, { status: 400 });
   }
 
-  // Load credentials from environment variables
   const username = process.env.ICABBI_USERNAME;
   const password = process.env.ICABBI_PASSWORD;
 
@@ -16,7 +15,6 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: true, message: 'Server missing API credentials' }, { status: 500 });
   }
 
-  // Encode credentials for Basic Authentication
   const basicAuth = Buffer.from(`${username}:${password}`).toString('base64');
 
   try {

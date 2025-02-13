@@ -31,9 +31,8 @@ export async function GET() {
     }
 
     const data = await response.json();
-    console.log('Fetched iCabbi Vehicle Data:', JSON.stringify(data, null, 2)); // Debugging Log
+    console.log('Fetched iCabbi Vehicle Data:', JSON.stringify(data, null, 2)); 
 
-    // Check if `unmapped` vehicles exist
     if (!data?.body?.unmapped || Object.keys(data.body.unmapped).length === 0) {
       console.error('Error: Vehicle list is missing in iCabbi response');
       return NextResponse.json(
@@ -42,7 +41,6 @@ export async function GET() {
       );
     }
 
-    // Extract vehicle details
     const vehicles = Object.entries(data.body.unmapped).map(([key, vehicle]: any) => ({
       id: key,
       title: vehicle.title || 'Unknown',
