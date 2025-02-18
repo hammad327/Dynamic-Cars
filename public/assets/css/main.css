@@ -3860,6 +3860,12 @@ label {
 .card-testimonial {
 	max-width: 470px;
 	width: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced evenly */
+    align-items: stretch;
+	height: 320px;
+	overflow: hidden;
 	padding: 34px 40px;
 	border: 1px solid var(--bs-border-color);
 	background-color: var(--bs-neutral-0);
@@ -7068,15 +7074,17 @@ a.icon-socials:hover svg path {
 }
 
 .footer .menu-footer li a {
-	color: var(--bs-neutral-400);
-	font-size: 16px;
+	/* color: var(--bs-neutral-400); */
+	color: #363334;
+	font-size: 13px;
 	text-decoration: none;
 	transition-duration: 0.2s;
 	line-height: 26px;
 }
 
 .footer .menu-footer li a:hover {
-	color: var(--bs-neutral-0);
+	/* color: var(--bs-neutral-0); */
+	color: #78BC51;
 	transition-duration: 0.2s;
 	padding-left: 3px;
 	transition-duration: 0.2s;
@@ -10559,7 +10567,7 @@ a.icon-socials:hover svg path {
 
 .accordion-button:not(.collapsed)::after {
 	background-image: url(../imgs/template/icons/close-faq.png);
-	background-color: var(--bs-neutral-1000);
+	background-color: #76B84F;
 }
 
 .accordion-collapse .accordion-body {
@@ -13870,6 +13878,104 @@ html, body {
   @media (max-width: 1024px) { /* Hide on md (768px) and sm screens */
 	.hide-on-medium {
 	  display: none;
+	}
+  }
+  
+  .greenbg {
+	background-color: #78BC51;
+  }
+/* Cars Listing Section */
+.cars-listing-section {
+	background-color: #f9f9f9;
+	padding: 40px 0;
+  }
+  
+  /* Card Container */
+  .cars-card {
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 15px;
+  }
+  
+  .cars-card:hover {
+	transform: translateY(-5px);
+  }
+  
+  /* Image Wrapper */
+  .cars-image {
+	width: 100%;
+	height: 160px; /* Fixed height to avoid cropping */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+  }
+  
+  .cars-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain; /* Ensures full image visibility */
+  }
+  
+  /* Card Content */
+  .cars-info {
+	flex-grow: 1;
+	text-align: center;
+  }
+  
+  .cars-title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	margin-top: 10px;
+  }
+  
+  /* Facilities (Capacity & Luggage) */
+  .cars-facilities {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	margin-top: 10px;
+  }
+  
+  .cars-facilities p {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: #666;
+	margin: 0;
+  }
+  
+  /* Icon Styling */
+  .cars-facilities p i {
+	font-size: 16px;
+	margin-right: 5px;
+	color: #555;
+  }
+  
+  /* Grid Layout */
+  .cars-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 15px; /* Removes extra spaces */
+  }
+  
+  @media (max-width: 768px) {
+	.cars-grid {
+	  grid-template-columns: repeat(2, 1fr);
+	}
+  }
+  
+  @media (max-width: 576px) {
+	.cars-grid {
+	  grid-template-columns: repeat(1, 1fr);
 	}
   }
   

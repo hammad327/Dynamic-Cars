@@ -25,7 +25,6 @@ export default function AboutUs() {
 							</div>
 							<div className="container position-absolute z-1 top-50 start-50 translate-middle">
 								<h2 className="text-white">About Us</h2>
-								<span className="text-white text-xl-medium">Get the latest news, updates and tips</span>
 							</div>
 							<div className="background-body position-absolute z-1 top-100 start-50 translate-middle px-3 py-2 rounded-12 border d-flex gap-3 @@navigation-page">
 								<Link href="/" className="neutral-700 text-md-medium">Home</Link>
@@ -111,12 +110,7 @@ export default function AboutUs() {
 								<div className="col-lg-3 col-sm-6">
 									<div className="card-why text-start wow fadeInUp">
 										<div className="card-image">
-											<svg xmlns="http://www.w3.org/2000/svg" width={62} height={62} viewBox="0 0 62 62" fill="none">
-												<path d="M47.023 27.9968H43.8262C43.2934 27.9968 42.8574 28.4328 42.8574 28.9656C42.8574 29.4984 43.2934 29.9343 43.8262 29.9343H47.023C47.459 29.9343 47.8174 30.2928 47.8174 30.7287V44.64C47.8174 45.0759 47.459 45.4343 47.023 45.4343H43.8262C43.2934 45.4343 42.8574 45.8703 42.8574 46.4031C42.8574 46.9359 43.2934 47.3718 43.8262 47.3718H47.023C48.5246 47.3718 49.7549 46.1512 49.7549 44.64V30.7287C49.7549 29.2271 48.5343 27.9968 47.023 27.9968Z" fill="#101010" />
-												<path d="M10.1623 29.9343H13.3592C13.892 29.9343 14.3279 29.4984 14.3279 28.9656C14.3279 28.4328 13.892 27.9968 13.3592 27.9968H10.1623C8.66073 27.9968 7.43042 29.2175 7.43042 30.7287V44.64C7.43042 46.1415 8.65104 47.3718 10.1623 47.3718H13.3592C13.892 47.3718 14.3279 46.9359 14.3279 46.4031C14.3279 45.8703 13.892 45.4343 13.3592 45.4343H10.1623C9.72636 45.4343 9.36792 45.0759 9.36792 44.64V30.7287C9.36792 30.2928 9.72636 29.9343 10.1623 29.9343Z" fill="#101010" />
-												<path d="M29.5565 29.6632V28.9463C29.5565 28.4135 29.1205 27.9775 28.5877 27.9775C28.0549 27.9775 27.619 28.4135 27.619 28.9463V29.7116C25.0808 30.1475 23.1821 31.9591 23.1821 34.1194C23.1821 36.2797 25.0712 38.0719 27.619 38.5079V43.7004C25.9818 43.4388 24.7224 42.4022 24.7224 41.1913C24.7224 40.6585 24.2865 40.2225 23.7537 40.2225C23.2208 40.2225 22.7849 40.6585 22.7849 41.1913C22.7849 43.4679 24.8968 45.3472 27.619 45.6475V46.3644C27.619 46.8972 28.0549 47.3332 28.5877 47.3332C29.1205 47.3332 29.5565 46.8972 29.5565 46.3644V45.5991C32.0946 45.1632 34.003 43.3516 34.003 41.1913C34.003 39.031 32.1333 37.2291 29.5565 36.8029V31.6104C31.1937 31.8622 32.453 32.9085 32.453 34.1194C32.453 34.6522 32.889 35.0882 33.4218 35.0882C33.9546 35.0882 34.3905 34.6522 34.3905 34.1194C34.3905 31.8429 32.2787 29.9635 29.5565 29.6632ZM25.1196 34.1194C25.1196 33.015 26.1852 32.0463 27.619 31.6975V36.5413C26.1755 36.1925 25.1196 35.2238 25.1196 34.1194ZM32.0655 41.201C32.0655 42.3054 30.9999 43.2644 29.5565 43.6229V38.7791C31.0096 39.1279 32.0655 40.0966 32.0655 41.2107V41.201Z" fill="#101010" />
-												<path d="M57.9991 33.044L51.5569 12.9425C51.1016 11.5087 49.5516 10.7144 48.1275 11.1794L7.44969 24.3834H6.60688C5.10531 24.3834 3.875 25.604 3.875 27.1153V48.2243C3.875 49.7259 5.09563 50.9562 6.60688 50.9562H50.5784C52.08 50.9562 53.3103 49.7356 53.3103 48.2243V37.3744C53.3781 37.3744 53.4459 37.3647 53.5138 37.3453L56.2262 36.4734C57.66 36.0181 58.4447 34.4778 57.9894 33.044H57.9991ZM51.3728 48.2243C51.3728 48.6603 51.0144 49.0187 50.5784 49.0187H6.60688C6.17094 49.0187 5.8125 48.6603 5.8125 48.2243V27.1153C5.8125 26.6793 6.17094 26.3209 6.60688 26.3209H26.7181C26.7181 26.3209 26.7278 26.3209 26.7375 26.3209H26.7472H30.1959C30.1959 26.3209 30.2056 26.3209 30.2153 26.3209C30.225 26.3209 30.225 26.3209 30.2347 26.3209H50.5784C51.0144 26.3209 51.3728 26.6793 51.3728 27.1153V48.2243ZM55.645 34.6328L53.3103 35.3787V27.1153C53.3103 25.9043 52.5159 24.8872 51.4213 24.5287L49.2706 17.4569C49.0478 16.7594 48.5731 16.1975 47.9241 15.8584C47.275 15.529 46.5387 15.4612 45.8413 15.684L42.7994 16.6625C42.2859 16.8272 42.005 17.3697 42.1697 17.8831C42.3344 18.3965 42.8769 18.6678 43.3903 18.5128L46.4322 17.5344C46.6356 17.4665 46.8488 17.4859 47.0328 17.5828C47.2169 17.6797 47.3622 17.8444 47.4203 18.0284L49.3481 24.3737H35.1656C34.1969 22.9981 32.3369 22.3006 30.3316 22.5234L30.1087 21.8356C29.9441 21.3319 29.4016 21.0509 28.8881 21.2059C28.3747 21.3706 28.0938 21.9131 28.2584 22.4265L28.4425 22.9981C27.6384 23.3275 26.9216 23.7925 26.3403 24.3737H13.7175L48.7087 13.02C48.9122 12.9522 49.1253 12.9715 49.3094 13.0684C49.4934 13.1653 49.6387 13.33 49.6969 13.5334L56.1391 33.635C56.2747 34.0515 56.0422 34.4972 55.6256 34.6328H55.645Z" fill="#101010" />
-											</svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 122.88 63.89"><path d="M0 0h122.88v63.89H0V0zm61.13 33.92l.07 1.66c0 1.11-.29 1.99-.85 2.62h8.92v3.94H53.6V38.2h1.51c.55-.15.85-.66.88-1.51v-.77l-.07-1.99h-2.36V30.1h2.25l-.07-3.17c0-1.99.59-3.58 1.81-4.72 1.18-1.14 2.8-1.7 4.87-1.7 2.18 0 3.91.55 5.12 1.7 1.22 1.14 1.84 2.65 1.84 4.57h-4.83c0-1.55-.66-2.29-1.99-2.29-.52 0-.88.18-1.22.59-.29.41-.44 1-.44 1.84l.15 3.17h4.5v3.83h-4.42zm.29-20.76c10.4 0 18.8 8.41 18.8 18.8 0 10.4-8.41 18.8-18.8 18.8-10.4 0-18.8-8.41-18.8-18.8s8.4-18.8 18.8-18.8zM20.5 9.73h81.7c0 5.2 4.24 9.44 9.44 9.44v25.25c-5.2 0-9.44 4.24-9.44 9.44H20.5c0-5.2-4.24-9.44-9.44-9.44V19.17c5.2 0 9.44-4.24 9.44-9.44z" fill-rule="evenodd" clip-rule="evenodd"/></svg>
 										</div>
 										<div className="card-info">
 											<h6 className="text-xl-bold neutral-1000 text-start">Transparent Pricing</h6>
@@ -420,7 +414,7 @@ export default function AboutUs() {
           </div>
           <div className="bg-overlay position-absolute bottom-0 end-0 h-75 background-brand-2 opacity-25 z-0 rounded-start-pill" />
         </div>
-      </section>
+      				</section>
 					{/* Static 1 */}
 					<section className="section-static-1 background-body background-2 pt-80 pb-80">
 						<div className="container">
@@ -477,95 +471,95 @@ export default function AboutUs() {
 					</section>
 					{/* cta 9*/}
 					<section className="section-cta-7 background-body py-96">
-        <div className="box-cta-6">
-          <div className="container">
-            <div className="row align-items-center">
-              {/* Left Side - Image & Video */}
-              <div className="col-lg-6">
-                <div className="card-image d-inline-block position-relative mb-100">
-                  <img
-                    className="rounded-12"
-                    src="/assets/imgs/cta/cta-9/img-1.png"
-                    alt="Dynamic-Cars"
-                  />
-                  <a
-                    className="btn  position-absolute top-50 start-50 translate-middle"
-                    onClick={() => setOpen(true)}
-                  />
-                  <img
-                    className="position-absolute top-100 start-100 translate-middle rounded-12 d-none d-md-block"
-                    src="/assets/imgs/cta/cta-9/img-2.png"
-                    alt="Dynamic-Cars"
-                  />
-                </div>
-              </div>
+						<div className="box-cta-6">
+						<div className="container">
+							<div className="row align-items-center">
+							{/* Left Side - Image & Video */}
+							<div className="col-lg-6">
+								<div className="card-image d-inline-block position-relative mb-100">
+								<img
+									className="rounded-12"
+									src="/assets/imgs/cta/cta-9/img-1.png"
+									alt="Dynamic-Cars"
+								/>
+								<a
+									className="btn  position-absolute top-50 start-50 translate-middle"
+									onClick={() => setOpen(true)}
+								/>
+								<img
+									className="position-absolute top-100 start-100 translate-middle rounded-12 d-none d-md-block"
+									src="/assets/imgs/cta/cta-9/img-2.png"
+									alt="Dynamic-Cars"
+								/>
+								</div>
+							</div>
 
-              {/* Right Side - Content */}
-              <div className="col-lg-6 ps-lg-5">
-                <Link className="btn btn-signin bg-2 text-dark mb-4" href="#">
-                  Our Core Values
-                </Link>
-                <h4 className="mb-4 neutral-1000">
-                  Professionalism, Trust & Excellence in Service
-                </h4>
-                <p className="text-lg-medium neutral-500 mb-4">
-                  At Dynamic-Cars, our core values guide everything we do. We
-                  are committed to professionalism, reliability, and exceeding
-                  customer expectations. Our goal is to build trust and provide
-                  seamless, high-quality transportation solutions.
-                </p>
-                <div className="row">
-                  <div className="col">
-                    <ul className="list-ticks-green text-primary list-ticks-green-2">
-                      <li className="neutral-1000 pe-0">
-                        Be professional at all times, in everything we do
-                      </li>
-                      <li className="neutral-1000 pe-0">
-                        Inspire trust in our clients, industry partners, and
-                        team
-                      </li>
-                      <li className="neutral-1000 pe-0">
-                        Exceed client expectations with outstanding service
-                      </li>
-                      <li className="neutral-1000 pe-0">
-                        Work proactively to avoid issues and resolve them
-                        diligently
-                      </li>
-                      <li className="neutral-1000 pe-0">
-                        Be reliable—always delivering on our promises
-                      </li>
-                      <li className="neutral-1000 pe-0">
-                        Stay approachable, friendly, and accessible to all
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                {/* <Link className="btn btn-primary mt-2" href="#">
-                  Learn More About Us
-                  <svg
-                    width={16}
-                    height={16}
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M8 15L15 8L8 1M15 8L1 8"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </Link> */}
-              </div>
-            </div>
-          </div>
+							{/* Right Side - Content */}
+							<div className="col-lg-6 ps-lg-5">
+								<Link className="btn btn-signin bg-2 text-dark mb-4" href="#">
+								Our Core Values
+								</Link>
+								<h4 className="mb-4 neutral-1000">
+								Professionalism, Trust & Excellence in Service
+								</h4>
+								<p className="text-lg-medium neutral-500 mb-4">
+								At Dynamic-Cars, our core values guide everything we do. We
+								are committed to professionalism, reliability, and exceeding
+								customer expectations. Our goal is to build trust and provide
+								seamless, high-quality transportation solutions.
+								</p>
+								<div className="row">
+								<div className="col">
+									<ul className="list-ticks-green text-primary list-ticks-green-2">
+									<li className="neutral-1000 pe-0">
+										Be professional at all times, in everything we do
+									</li>
+									<li className="neutral-1000 pe-0">
+										Inspire trust in our clients, industry partners, and
+										team
+									</li>
+									<li className="neutral-1000 pe-0">
+										Exceed client expectations with outstanding service
+									</li>
+									<li className="neutral-1000 pe-0">
+										Work proactively to avoid issues and resolve them
+										diligently
+									</li>
+									<li className="neutral-1000 pe-0">
+										Be reliable—always delivering on our promises
+									</li>
+									<li className="neutral-1000 pe-0">
+										Stay approachable, friendly, and accessible to all
+									</li>
+									</ul>
+								</div>
+								</div>
+								{/* <Link className="btn btn-primary mt-2" href="#">
+								Learn More About Us
+								<svg
+									width={16}
+									height={16}
+									viewBox="0 0 16 16"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+									d="M8 15L15 8L8 1M15 8L1 8"
+									stroke="currentColor"
+									strokeWidth="1.5"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									/>
+								</svg>
+								</Link> */}
+							</div>
+							</div>
+						</div>
 
-          {/* Background Overlay */}
-          <div className="bg-overlay position-absolute bottom-0 end-0 h-75 background-brand-2 opacity-25 z-0 rounded-start-pill" />
-        </div>
-      </section>
+						{/* Background Overlay */}
+						<div className="bg-overlay position-absolute bottom-0 end-0 h-75 background-brand-2 opacity-25 z-0 rounded-start-pill" />
+						</div>
+      				</section>
 					{/* testimonials */}
 					<section className="section-box py-96 md:py-48 sm:py-20 background-body">
 					<div className="container-fluid">
@@ -574,7 +568,7 @@ export default function AboutUs() {
 						<div className="box-author-testimonials btn btn-signin" >
 				Testimonials
 			</div>
-			<h3 className="mt-8 mb-15 neutral-1000">What <span className='text-primary'>client</span> say about us?</h3>
+			<h3 className="mt-8 mb-15 neutral-1000">What <span className='text-primary'>clients</span> say about us?</h3>
 			</div>
 					</div>
 				</div>
@@ -683,9 +677,9 @@ export default function AboutUs() {
 					</div>
 					
 				</div>
-			</section>
+					</section>
 					{/* faqs 1 */}
-					<section className="section-box box-faqs background-body pt-0">
+					<section className="section-box box-faqs background-body pt-0 " id="accordionFAQ">
     <div className="box-faqs-inner">
         <div className="container">
             <div className="text-center">
@@ -693,14 +687,14 @@ export default function AboutUs() {
                 <h3 className="mt-4 neutral-1000">Frequently Asked Questions</h3>
             </div>
             <div className="block-faqs">
-                <div className="accordion" id="accordionFAQ">
+                <div className="accordion" >
                     <div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingOne" onClick={() => handleAccordion(1)}>
-                            <button className={`accordion-button text-heading-5 ${isAccordion === 1 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <h3>01</h3>
+                            <button className={`accordion-button text-heading-5  ${isAccordion === 1 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h3 className='text-primary'>01</h3>
                                 <p>
-What Is Dynamic Cars In London?
-</p>
+								What Is Dynamic Cars In London?
+								</p>
                             </button>
                         </h5>
                         <div className={`accordion-collapse collapse  ${isAccordion == 1 ? 'show' : ''} `} id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
@@ -712,7 +706,7 @@ What Is Dynamic Cars In London?
                     <div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingTwo" onClick={() => handleAccordion(2)}>
                             <button className={`accordion-button text-heading-5 ${isAccordion === 2 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <h3>02</h3>
+                                <h3 className='text-primary'>02</h3>
                                 <p>Is Dynamic Cars Cheaper Than Uber?</p>
                             </button>
                         </h5>
@@ -725,7 +719,7 @@ What Is Dynamic Cars In London?
                     <div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingThree" onClick={() => handleAccordion(3)}>
                             <button className={`accordion-button text-heading-5 ${isAccordion === 3 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <h3>03</h3>
+                                <h3 className='text-primary'>03</h3>
                                 <p>Why Should You Hire Our London Dynamic Cars?</p>
                             </button>
                         </h5>
@@ -738,7 +732,7 @@ What Is Dynamic Cars In London?
                     <div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingFour" onClick={() => handleAccordion(4)}>
                             <button className={`accordion-button text-heading-5 ${isAccordion === 4 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <h3>04</h3>
+                                <h3 className='text-primary'>04</h3>
                                 <p>Can I transfer airports to London?</p>
                             </button>
                         </h5>
@@ -751,7 +745,7 @@ What Is Dynamic Cars In London?
                     <div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingFive" onClick={() => handleAccordion(5)}>
                             <button className={`accordion-button text-heading-5 ${isAccordion === 5 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <h3>05</h3>
+                                <h3 className='text-primary'>05</h3>
                                 <p>How Do I Get a Dynamic Cars In London?</p>
                             </button>
                         </h5>
@@ -764,7 +758,7 @@ What Is Dynamic Cars In London?
 					<div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingFive" onClick={() => handleAccordion(5)}>
                             <button className={`accordion-button text-heading-5 ${isAccordion === 5 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <h3>06</h3>
+                                <h3 className='text-primary'>06</h3>
                                 <p>How Much Are Dynamic Cars To London?</p>
                             </button>
                         </h5>
@@ -777,7 +771,7 @@ What Is Dynamic Cars In London?
 					<div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingFive" onClick={() => handleAccordion(5)}>
                             <button className={`accordion-button text-heading-5 ${isAccordion === 5 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <h3>07</h3>
+                                <h3 className='text-primary'>07</h3>
                                 <p>Are You a Licensed, Private Operator?</p>
                             </button>
                         </h5>
@@ -790,7 +784,7 @@ What Is Dynamic Cars In London?
 					<div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingFive" onClick={() => handleAccordion(5)}>
                             <button className={`accordion-button text-heading-5 ${isAccordion === 5 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                <h3>08</h3>
+                                <h3 className='text-primary'>08</h3>
                                 <p>How do you get from one airport to another in London?</p>
                             </button>
                         </h5>

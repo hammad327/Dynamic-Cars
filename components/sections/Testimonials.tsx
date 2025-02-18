@@ -22,7 +22,7 @@ export default function Testimonials() {
 						<div className="box-author-testimonials btn btn-signin" >
 				Testimonials
 			</div>
-			<h3 className="mt-8 mb-15 neutral-1000">What <span className='text-primary'>client</span> say about us?</h3>
+			<h3 className="mt-8 mb-15 neutral-1000">What <span className='text-primary'>clients</span> say about us?</h3>
 			</div>
 					</div>
 				</div>
@@ -38,10 +38,10 @@ export default function Testimonials() {
 													<p className="text-xl-bold card-title neutral-1000">Fast and Easy to Use</p>
 													<p className="text-md-regular neutral-500">Used Dynamic Cars for an early morning trip from London to Gatwick. Driver arrived ahead of schedule. Driver was very polite and also found a forgotten charger in the back seat and called so I could go back and get it. Car was comfortable and clean. Thank you so much! Will definitely use again.</p>
 												</div>
-												<div className="card-top pt-40 border-0 mb-0">
+												<div className="card-top pt-20 border-0 mb-0">
 													<div className="card-author">
-														{/* <div className="card-image"><img src="/assets/imgs/testimonials/testimonials-1/author-1.png" alt="Dynamic-Cars" /></div> */}
-														<div className="card-info">
+													<div className="card-image"><img src="/assets/imgs/testimonials/testimonials-1/author-2.png" alt="Dynamic-Cars" /></div>
+													<div className="card-info">
 															<p className="text-lg-bold neutral-1000">Brittany Rae</p>
 															<p className="text-md-regular neutral-1000">Kingston upon Thames</p>
 														</div>
@@ -57,7 +57,7 @@ export default function Testimonials() {
 													<p className="text-xl-bold card-title neutral-1000">Super Convenient</p>
 													<p className="text-md-regular neutral-500">I have been using Dynamic Cars for the past 5 years. I travel regularly for work and always book cars with Mohammed and his team. They have always been punctual, pleasant and cars are always clean. Already booking them again for my first trip of the year. Highly recommend. Silviana</p>
 												</div>
-												<div className="card-top pt-40 border-0 mb-0">
+												<div className="card-top pt-20 border-0 mb-0">
 													<div className="card-author">
 														<div className="card-image"><img src="/assets/imgs/testimonials/testimonials-1/author-2.png" alt="Dynamic-Cars" /></div>
 														<div className="card-info">
@@ -76,7 +76,7 @@ export default function Testimonials() {
 														Process</p>
 													<p className="text-md-regular neutral-500">Lovely local car company. Reliable, on time and good mannered. Would highly recommend if you're in the area</p>
 												</div>
-												<div className="card-top pt-40 border-0 mb-0">
+												<div className="card-top pt-20 border-0 mb-0">
 													<div className="card-author">
 														<div className="card-image"><img src="/assets/imgs/testimonials/testimonials-1/author-3.png" alt="Dynamic-Cars" /></div>
 														<div className="card-info">
@@ -94,7 +94,7 @@ export default function Testimonials() {
 													<p className="text-xl-bold card-title neutral-1000">Easy to Understand</p>
 													<p className="text-md-regular neutral-500">Brilliant service, texted me with ETA, incredibly polite and really cared about the quality if their service. Really recommend them</p>
 												</div>
-												<div className="card-top pt-40 border-0 mb-0">
+												<div className="card-top pt-20 border-0 mb-0">
 													<div className="card-author">
 														<div className="card-image"><img src="/assets/imgs/testimonials/testimonials-1/author-1.png" alt="Dynamic-Cars" /></div>
 														<div className="card-info">
@@ -112,7 +112,7 @@ export default function Testimonials() {
 													<p className="text-xl-bold card-title neutral-1000">Easy to Understand</p>
 													<p className="text-md-regular neutral-500">I used this company few times. Great service, always on time. Will use them again.</p>
 												</div>
-												<div className="card-top pt-40 border-0 mb-0">
+												<div className="card-top pt-20 border-0 mb-0">
 													<div className="card-author">
 														<div className="card-image"><img src="/assets/imgs/testimonials/testimonials-1/author-1.png" alt="Dynamic-Cars" /></div>
 														<div className="card-info">
@@ -139,7 +139,7 @@ export default function Testimonials() {
                 <span className="text-sm-bold bg-2 btn btn-signin bg-2 text-dark rounded-12">Our Support</span>
                 <h3 className="mt-4 neutral-1000">Frequently Asked Questions</h3>
             </div>
-            <div className="block-faqs">
+            {/* <div className="block-faqs">
                 <div className="accordion" id="accordionFAQ">
                     <div className="accordion-item wow fadeInUp border-bottom-0">
                         <h5 className="accordion-header" id="headingOne" onClick={() => handleAccordion(1)}>
@@ -248,22 +248,17 @@ What Is Dynamic Cars In London?
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="row">
                 <div className="col-12 wow fadeInUp mt-4">
                     <div className="d-flex justify-content-center gap-2">
-                        <Link className="btn btn-signin mt-2" href="/contact">
-                            Contact Us
-                            <svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <Link className="btn btn-signin mt-2 " href="/about-us#accordionFAQ">
+                            FAQ
+                            <svg width={12} height={12} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="ml-10">
                                 <path d="M8 15L15 8L8 1M15 8L1 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                         </Link>
-                        <Link className="btn btn-primary bg-transparent mt-2 invert" href="/contact">
-                            Help Center
-                            <svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 15L15 8L8 1M15 8L1 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </Link>
+                        
                     </div>
                 </div>
             </div>

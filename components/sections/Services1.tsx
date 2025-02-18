@@ -1,237 +1,63 @@
 'use client'
-import { swiperGroup4 } from '@/util/swiperOptions'
 import Link from "next/link"
-import { Swiper, SwiperSlide } from "swiper/react"
+
+const services = [
+    { id: 1, title: "Airport Transfers", img: "/assets/imgs/services/services-1/img-1.png", link: "/services" },
+    { id: 2, title: "Chauffeur Services", img: "/assets/imgs/services/services-1/img-2.png", link: "/services" },
+    { id: 3, title: "Long Distance & Cruise Transfers", img: "/assets/imgs/services/services-1/img-3.png", link: "/services" },
+    { id: 4, title: "Courier Services", img: "/assets/imgs/services/services-1/img-4.png", link: "/services" },
+    { id: 5, title: "Airport Meet & Greet", img: "/assets/imgs/services/services-1/img-5.png", link: "/services" },
+    { id: 6, title: "Event Management", img: "/assets/imgs/services/services-1/img-6.png", link: "/services" },
+    { id: 7, title: "VIP Tours", img: "/assets/imgs/services/services-1/img-7.png", link: "/services" },
+    { id: 8, title: "Corporate Travel", img: "/assets/imgs/services/services-1/img-8.png", link: "/services" },
+    { id: 9, title: "Wedding Services", img: "/assets/imgs/services/services-1/img-9.png", link: "/services" }
+];
 
 export default function Services1() {
-	return (
-		<>
+    return (
+        <section className="section-box box-properties-area pt-96 pb-50 background-body">
+            <div className="container">
+                <div className="row align-items-end mb-40">
+                    <div className="col-md-8">
+                        <h3 className="neutral-1000">Our Services</h3>
+                        <p className="text-lg-medium neutral-500">Serving You with Quality, Comfort, and Convenience</p>
+                    </div>
+                </div>
 
-			<section className="section-box box-properties-area pt-96 pb-50 background-body">
-				<div className="container">
-					<div className="row align-items-end mb-40">
-						<div className="col-md-8">
-							<h3 className="neutral-1000">Our Services</h3>
-							<p className="text-lg-medium neutral-500">Serving You with Quality, Comfort, and Convenience</p>
-						</div>
-						{/* <div className="col-md-4 mt-md-0 mt-4">
-							<div className="d-flex justify-content-md-end justify-content-center">
-								<Link className="btn btn-primary" href="/cars-list-1">
-									View More
-									<svg width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M8 15L15 8L8 1M15 8L1 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-									</svg>
-								</Link>
-							</div>
-						</div> */}
-					</div>
-					<div className="box-list-featured">
-						<div className="box-swiper mt-0">
-							<Swiper {...swiperGroup4} className="swiper-container swiper-group-4 swiper-group-journey">
-								<div className="swiper-wrapper">
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#airport-transfers"><img className="rounded-3" src="/assets/imgs/services/services-1/img-1.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#airport-transfers">Airport Transfers</Link></div>
-													
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#airport-transfers">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#chauffeur-services"><img className="rounded-3" src="/assets/imgs/services/services-1/img-2.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#chauffeur-services">Chauffeur services</Link></div>	
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#chauffeur-services">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#long-distance"><img className="rounded-3" src="/assets/imgs/services/services-1/img-3.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#long-distance">Long Distance & Cruise Transfers												</Link></div>
-													
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#long-distance">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#courier-services"><img className="rounded-3" src="/assets/imgs/services/services-1/img-4.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#courier-services">Courier Services</Link></div>
-													
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#courier-services">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#airport-meet-greet"><img className="rounded-3" src="/assets/imgs/services/services-1/img-5.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#airport-meet-greet">Airport Meet & Greet</Link></div>
-													
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#airport-meet-greet">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#event-management"><img className="rounded-3" src="/assets/imgs/services/services-1/img-6.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#event-management">Event Management</Link></div>
-													
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#event-management">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#vip-tours"><img className="rounded-3" src="/assets/imgs/services/services-1/img-7.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#vip-tours">VIP Tours</Link></div>
-													
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#vip-tours">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#wedding-services"><img className="rounded-3" src="/assets/imgs/services/services-1/img-8.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#wedding-services">Wedding Services</Link></div>
-													
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#wedding-services">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-									<SwiperSlide>
-										<div className="card-spot background-card wow fadeInDown">
-											<div className="card-image">
-												<Link href="/sub-service/#school-run"><img className="rounded-3" src="/assets/imgs/services/services-1/img-9.png" alt="Dynamic-Cars" /></Link>
-											</div>
-											<div className="card-info background-card">
-												<div className="card-left">
-													<div className="card-title"><Link className="text-lg-bold neutral-1000" href="/sub-service/#school-run">School Run</Link></div>
-													
-												</div>
-												<div className="card-right">
-													<div className="card-button">
-														<Link href="/sub-service/#school-run">
-															<svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</Link>
-													</div>
-												</div>
-											</div>
-										</div>
-									</SwiperSlide>
-								</div>
-							</Swiper>
-						</div>
-					</div>
-				</div>
-			</section>
-		</>
-	)
+                <div className="row">
+                    {services.map((service) => (
+                        <div key={service.id} className="col-md-4 mb-4">
+                            <div className="card-spot background-card wow fadeInDown">
+                                <div className="card-image">
+                                    <Link href={service.link}>
+                                        <img 
+                                            className="rounded-3 img-fluid" 
+                                            src={service.img} 
+                                            alt={service.title} 
+                                        />
+                                    </Link>
+                                </div>
+                                <div className="card-info background-card">
+                                    <div className="card-left">
+                                        <div className="card-title">
+                                            <Link className="text-sm-bold neutral-1000" href={service.link}>{service.title}</Link>
+                                        </div>
+                                    </div>
+                                    <div className="card-right">
+                                        <div className="card-button">
+                                            <Link href={service.link}>
+                                                <svg width={10} height={10} viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M5.00011 9.08347L9.08347 5.00011L5.00011 0.916748M9.08347 5.00011L0.916748 5.00011" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
+                                                </svg>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
 }

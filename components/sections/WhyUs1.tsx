@@ -7,7 +7,7 @@ export default function WhyUs1({cls}:any) {
 			<section className={`section-box box-why-book-22 background-body ${cls}`}>
 				<div className="container">
 					<div className="text-center wow fadeInUp">
-						<p className="text-xl-medium neutral-500 wow fadeInUp">Fully Licensed & Vetted</p>
+						<p className="text-xl-medium neutral-500 wow fadeInUp pt-20">Fully Licensed & Vetted</p>
 						<h3 className="neutral-1000 wow fadeInUp">
 						OUR EXPERT DRIVERS
 						
