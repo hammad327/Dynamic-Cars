@@ -10,28 +10,29 @@ export default function Banners() {
        
 
           {/* Coverage Areas Section */}
-          <div className="row mt-5">
-            <div className="col-12 text-center wow fadeInUp">
-              <h3 className="text-primary mb-4">Coverage Areas</h3>
-            </div>
-            {[
-              "Kingston upon Thames", "New Malden", "Worcester Park", "Surbiton/Tolworth", "Thames Ditton",
-"East Molesey", "West Molesey", "Chessington", "West Wimbledon", "Esher", "Cobham", "Epsom/Ewell",
-"Tadworth", "Ashtead", "Leatherhead", "Bookham", "Wimbledon", "Twickenham", "Hounslow", "Richmond",
-"Teddington", "Hampton", "Sutton", "Cheam", "Wandsworth", "Carshalton", "Wallington", "Banstead",
-"Redhill", "Reigate", "Betchworth", "Dorking", "Tooting"
- ].map((area, index) => (
-              <div key={index} className="col-lg-2 col-md-3 col-sm-6 mb-3 wow fadeInUp">
-                <div className="d-flex align-items-center text-start">
-                  <FaCar className="text-primary me-2" />
-                  <span>{area}</span>
-                </div>
-              </div>
-            ))}
+          <div className="row mt-5 ml-20">
+          <div className="col-12 text-center wow fadeInUp">
+            <h3 className="text-primary mb-4">Coverage Areas</h3>
           </div>
+          {[
+            "Kingston upon Thames", "New Malden", "Worcester Park", "Surbiton/Tolworth", "Thames Ditton",
+            "East Molesey", "West Molesey", "Chessington", "West Wimbledon", "Esher", "Cobham", "Epsom/Ewell",
+            "Tadworth", "Ashtead", "Leatherhead", "Bookham", "Wimbledon", "Twickenham", "Hounslow", "Richmond",
+            "Teddington", "Hampton", "Sutton", "Cheam", "Wandsworth", "Carshalton", "Wallington", "Banstead",
+            "Redhill", "Reigate", "Betchworth", "Dorking", "Tooting"
+          ].map((area, index) => (
+            <div key={index} className="col-lg-2 col-md-3 col-sm-6 col-6 mb-3 wow fadeInUp">
+              <div className="d-flex align-items-center text-start">
+                <FaCar className="text-primary me-2" />
+                <span>{area}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
 
           {/* Airports Section */}
-          <div className="row mt-5">
+          <div className="row mt-5 ml-20">
             <div className="col-12 text-center wow fadeInUp">
               <h3 className="text-primary mb-4">Airports</h3>
             </div>

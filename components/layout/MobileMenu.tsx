@@ -34,7 +34,13 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
       </span>
       <Link href="/about-us">About Us</Link>
     </li>
-    <li className={`has-children ${isAccordion === 2 ? "active" : ""}`}>
+    <li className={`has-children ${isAccordion === 3 ? "active" : ""}`}>
+      <span >
+        <i></i>
+      </span>
+      <Link href="/services">Services</Link>
+    </li>
+    {/* <li className={`has-children ${isAccordion === 2 ? "active" : ""}`}>
       <span className="menu-expand" onClick={() => handleAccordion(2)}>
         <i className="arrow-small-down"></i>
       </span>
@@ -42,7 +48,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
       <ul className="sub-menu" style={{ display: `${isAccordion === 2 ? "block" : "none"}` }}>
         <li><Link href="/blog-details">Chauffeur service</Link></li>
       </ul>
-    </li>
+    </li> */}
     
     <li>
       <Link href="/term">Terms & Conditions</Link>

@@ -16,7 +16,7 @@ export default function Brand1() {
 
   return (
     <>
-      <div className="background-100 pb-70">
+      <div className="background-100 pb-30">
         <div className="container">
           <div className="box-search-category">
             <h3 className="heading-3 mb-0 neutral-1000 wow fadeInUp">Companies or partners we work with</h3>

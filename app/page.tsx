@@ -32,14 +32,14 @@ export default function Home() {
 				{/* <CarsListing1 /> */}
 				<Cta1 />
 				{/* <Categories1 /> */}
-				<WhyUs1 />
 				<Cta2 />
 				<CarsListing2 />
 				<Cta3 />
 				<Services1 />
 				<Banners />
 				<Testimonials />
-				
+				<WhyUs1 />
+
 				{/* <CarReview1 /> */}
 				{/* <Blog1 /> */}
 				{/* <App /> */}

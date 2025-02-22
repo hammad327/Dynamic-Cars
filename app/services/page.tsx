@@ -17,7 +17,7 @@ export default function Services() {
 								<img className="w-100 h-100 img-banner" src="/assets/imgs/page-header/banner1.png" alt="Dynamic-Cars" />
 							</div>
 							<div className="container position-absolute z-1 top-50 start-50 translate-middle">
-								<h2 className="text-white">Our Services</h2>
+								<h2 className="Text-services">Our Services</h2>
 								<span className="text-white text-xl-medium">Perfect service, top experts</span>
 							</div>
 							<div className="background-body position-absolute z-1 top-100 start-50 translate-middle px-3 py-2 rounded-12 border d-flex gap-3 @@navigation-page">
@@ -41,32 +41,15 @@ export default function Services() {
 								</div>
 							</div>
 							<div className="row mt-50">
+								
 								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
-										<div className="card-image">
-											<img src="/assets/imgs/services/services-list-1/img-1.png" alt="Dynamic-Cars" />
-										</div>
-										<div className="card-info">
-											<div className="card-title mb-3">
-											<Link className="text-xl-bold neutral-1000" href="/sub-service#courier-services">Courier Services</Link>
-											<p className="text-md-medium neutral-500 mt-2">Dynamic Cars & Couriers UK's specialized services include special pick-up times and internal handling requirements, dedicated line haul or delivery schedules, customized billing and administrative procedures. Whether local or long-distance delivery, you can count on Dynamic Cars for a professional, cost-effective, and hassle-free courier experience. Contact us today to book your courier service!</p>
-											</div>
-											{/* <div className="card-program">
-												<div className="endtime">
-													<div className="card-button"><Link className="btn btn-primary2" href="/sub-service#courier-services">View Details</Link></div>
-												</div>
-											</div> */}
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
+									<div className="card-news background-card hover-up mb-24" id='airport'>
 										<div className="card-image">
 											<img src="/assets/imgs/services/services-list-1/img-2.png" alt="Dynamic-Cars" />
 										</div>
 										<div className="card-info">
 											<div className="card-title mb-3">
-												<Link className="text-xl-bold neutral-1000" href="/sub-service#airport-transfers">Airport Transfers</Link>
+												<Link className="text-xl-bold neutral-1000" href="#">Airport Transfers</Link>
 												<p className="text-md-medium neutral-500 mt-2">Dynamic Cars offers a premium Meet & Greet Airport Service to ensure a smooth arrival at any UK airport. Whether you’re a frequent traveller, a business executive, or visiting the UK for the first time, our professional team provides a warm welcome and seamless transfer experience. Book your Meet & Greet service today and travel with ease!</p>
 											</div>
 											{/* <div className="card-program">
@@ -78,49 +61,13 @@ export default function Services() {
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
-										<div className="card-image">
-											<img src="/assets/imgs/services/services-list-1/img-3.png" alt="Dynamic-Cars" />
-										</div>
-										<div className="card-info">
-											<div className="card-title mb-3">
-												<Link className="text-xl-bold neutral-1000" href="/sub-service#long-distance">Long Distance & Cruise Transfers</Link>
-												<p className="text-md-medium neutral-500 mt-2">Our long-distance transfer service is the perfect solution for those looking to avoid the hassle of public transport. We offer comfortable, and well-maintained driven by experienced professionals who know the best routes to ensure a safe and timely trip. We make long-distance travel effortless with flexible scheduling, and transparent pricing.</p>
-											</div>
-											{/* <div className="card-program">
-												<div className="endtime">
-													<div className="card-button"><Link className="btn btn-primary2" href="/sub-service#courier-services">View Details</Link></div>
-												</div>
-											</div> */}
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
-										<div className="card-image">
-											<img src="/assets/imgs/services/services-list-1/img-4.png" alt="Dynamic-Cars" />
-										</div>
-										<div className="card-info">
-											<div className="card-title mb-3">
-												<Link className="text-xl-bold neutral-1000" href="/sub-service#event-management">Event Management</Link>
-												<p className="text-md-medium neutral-500 mt-2">At Dynamic Cars, we provide professional and seamless event transport management for all occasions, ensuring smooth and efficient transportation for guests, staff, and VIPs. Whether you’re organizing a corporate event, wedding, concert, conference, or private gathering, our dedicated team handles all transport logistics so you can focus on your event.</p>
-											</div>
-											{/* <div className="card-program">
-												<div className="endtime">
-													<div className="card-button"><Link className="btn btn-primary2" href="/sub-service#courier-services">View Details</Link></div>
-												</div>
-											</div> */}
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
+									<div className="card-news background-card hover-up mb-24" id='chauffeur'>
 										<div className="card-image">
 											<img src="/assets/imgs/services/services-list-1/img-5.png" alt="Dynamic-Cars" />
 										</div>
 										<div className="card-info">
 											<div className="card-title mb-3">
-												<Link className="text-xl-bold neutral-1000" href="/sub-service#chauffeur-services">Chauffeur Services</Link>
+												<Link className="text-xl-bold neutral-1000" href="#">Chauffeur Services</Link>
 												<p className="text-md-medium neutral-500 mt-2">Dynamic Cars offers premium chauffeur services across the UK, operating under private hire vehicle (PHV) regulations. Unlike traditional taxis, our private hire vehicles must be pre-booked through a licensed operator and cannot be hailed on the street or wait at taxi ranks. Our chauffeurs are fully licensed, highly trained, and committed to delivering a first-class service tailored to your needs.</p>
 											</div>
 											{/* <div className="card-program">
@@ -132,13 +79,50 @@ export default function Services() {
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
+									<div className="card-news background-card hover-up mb-24" id='long-distance'>
+										<div className="card-image">
+											<img src="/assets/imgs/services/services-list-1/img-3.png" alt="Dynamic-Cars" />
+										</div>
+										<div className="card-info">
+											<div className="card-title mb-3">
+												<Link className="text-xl-bold neutral-1000" href="#">Long Distance & Cruise Transfers</Link>
+												<p className="text-md-medium neutral-500 mt-2">Our long-distance transfer service is the perfect solution for those looking to avoid the hassle of public transport. We offer comfortable, and well-maintained driven by experienced professionals who know the best routes to ensure a safe and timely trip. We make long-distance travel effortless with flexible scheduling, and transparent pricing.</p>
+											</div>
+											{/* <div className="card-program">
+												<div className="endtime">
+													<div className="card-button"><Link className="btn btn-primary2" href="/sub-service#courier-services">View Details</Link></div>
+												</div>
+											</div> */}
+										</div>
+									</div>
+								</div>
+								<div className="col-lg-4 col-md-6">
+									<div className="card-news background-card hover-up mb-24" id='courier'>
+										<div className="card-image">
+											<img src="/assets/imgs/services/services-list-1/img-1.png" alt="Dynamic-Cars" />
+										</div>
+										<div className="card-info">
+											<div className="card-title mb-3">
+											<Link className="text-xl-bold neutral-1000" href="#">Courier Services</Link>
+											<p className="text-md-medium neutral-500 mt-2">Dynamic Cars & Couriers UK's specialized services include special pick-up times and internal handling requirements, dedicated line haul or delivery schedules, customized billing and administrative procedures. Whether local or long-distance delivery, you can count on Dynamic Cars for a professional, cost-effective, and hassle-free courier experience. Contact us today to book your courier service!</p>
+											</div>
+											{/* <div className="card-program">
+												<div className="endtime">
+													<div className="card-button"><Link className="btn btn-primary2" href="/sub-service#courier-services">View Details</Link></div>
+												</div>
+											</div> */}
+										</div>
+									</div>
+								</div>
+								
+								<div className="col-lg-4 col-md-6">
+									<div className="card-news background-card hover-up mb-24" id='meet-greet'>
 										<div className="card-image">
 											<img src="/assets/imgs/services/services-list-1/img-6.png" alt="Dynamic-Cars" />
 										</div>
 										<div className="card-info">
 											<div className="card-title mb-3">
-												<Link className="text-xl-bold neutral-1000" href="/sub-service#airport-meet-greet">Airport Meet and Greet</Link>
+												<Link className="text-xl-bold neutral-1000" href="#">Airport Meet and Greet</Link>
 												<p className="text-md-medium neutral-500 mt-2">Dynamic Cars offers a premium Service to ensure a smooth arrival at any UK airport. Whether you’re a frequent traveller, a business executive, or visiting the UK for the first time, our professional team provides a warm welcome and seamless transfer experience. Our service is available at all major UK airports, including Heathrow, Gatwick, Stansted, Luton, Birmingham, and Manchester.</p>
 											</div>
 											{/* <div className="card-program">
@@ -150,13 +134,32 @@ export default function Services() {
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
+									<div className="card-news background-card hover-up mb-24" id='event-management'>
+										<div className="card-image">
+											<img src="/assets/imgs/services/services-list-1/img-4.png" alt="Dynamic-Cars" />
+										</div>
+										<div className="card-info">
+											<div className="card-title mb-3">
+												<Link className="text-xl-bold neutral-1000" href="#">Event Management</Link>
+												<p className="text-md-medium neutral-500 mt-2">At Dynamic Cars, we provide professional and seamless event transport management for all occasions, ensuring smooth and efficient transportation for guests, staff, and VIPs. Whether you’re organizing a corporate event, wedding, concert, conference, or private gathering, our dedicated team handles all transport logistics so you can focus on your event.</p>
+											</div>
+											{/* <div className="card-program">
+												<div className="endtime">
+													<div className="card-button"><Link className="btn btn-primary2" href="/sub-service#courier-services">View Details</Link></div>
+												</div>
+											</div> */}
+										</div>
+									</div>
+								</div>
+								
+								<div className="col-lg-4 col-md-6">
+									<div className="card-news background-card hover-up mb-24" id='vip-tours'>
 										<div className="card-image">
 											<img src="/assets/imgs/services/services-list-1/img-7.png" alt="Dynamic-Cars" />
 										</div>
 										<div className="card-info">
 											<div className="card-title mb-3">
-												<Link className="text-xl-bold neutral-1000" href="/sub-service#vip-tours">VIP Tours</Link>
+												<Link className="text-xl-bold neutral-1000" href="#">VIP Tours</Link>
 												<p className="text-md-medium neutral-500 mt-2">Experience the UK like never before with Dynamic Cars’ VIP Tour Service, designed for those who appreciate luxury, comfort, and a personalized travel experience. Whether you’re a tourist, business executive, or special guest, our tailored private tours ensure you explore the most iconic landmarks and hidden gems with style and ease.</p>
 											</div>
 											{/* <div className="card-program">
@@ -168,13 +171,13 @@ export default function Services() {
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
+									<div className="card-news background-card hover-up mb-24" id='wedding'>
 										<div className="card-image">
 											<img src="/assets/imgs/services/services-list-1/img-8.png" alt="Dynamic-Cars" />
 										</div>
 										<div className="card-info">
 											<div className="card-title mb-3">
-												<Link className="text-xl-bold neutral-1000" href="/sub-service#wedding-services">Wedding Services</Link>
+												<Link className="text-xl-bold neutral-1000" href="#">Wedding Services</Link>
 												<p className="text-md-medium neutral-500 mt-2">Make your special day even more memorable with Dynamic Cars’ premium wedding transport service. We provide luxury vehicles, professional chauffeurs, and seamless coordination to ensure a stress-free travel experience for you and your guests. Let Dynamic Cars handle your wedding transport so you can focus on celebrating.</p>
 											</div>
 											{/* <div className="card-program">
@@ -186,13 +189,13 @@ export default function Services() {
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-6">
-									<div className="card-news background-card hover-up mb-24">
+									<div className="card-news background-card hover-up mb-24" id='school-run'>
 										<div className="card-image">
 											<img src="/assets/imgs/services/services-list-1/img-9.png" alt="Dynamic-Cars" />
 										</div>
 										<div className="card-info">
 											<div className="card-title mb-3">
-												<Link className="text-xl-bold neutral-1000" href="/sub-service#school-run">School Run Services</Link>
+												<Link className="text-xl-bold neutral-1000" href="#">School Run Services</Link>
 												<p className="text-md-medium neutral-500 mt-2">At Dynamic Cars, we provide a trusted and professional school run service, ensuring your child travels to and from school safely, comfortably, and on time. Our fully vetted, DBS-checked drivers are dedicated to providing a secure and friendly environment, giving parents peace of mind. Book your child’s school transport with us today!</p>
 											</div>
 											{/* <div className="card-program"> 
@@ -228,7 +231,7 @@ export default function Services() {
 						</div>
 					</section>
 					{/* testimonials */}
-					<section className="section-box py-96 background-body">
+					{/* <section className="section-box py-96 background-body">
 				<div className="container">
 					<div className="row align-items-end">
 						<div className="col-md-9 col-sm-9 wow fadeInUp">
@@ -253,7 +256,6 @@ export default function Services() {
 												</div>
 												<div className="card-top pt-40 border-0 mb-0">
 													<div className="card-author">
-														{/* <div className="card-image"><img src="/assets/imgs/testimonials/testimonials-1/author-1.png" alt="Dynamic-Cars" /></div> */}
 														<div className="card-info">
 															<p className="text-lg-bold neutral-1000">Brittany Rae</p>
 															<p className="text-md-regular neutral-1000">Kingston upon Thames</p>
@@ -344,65 +346,7 @@ export default function Services() {
 					</div>
 					
 				</div>
-			</section>
-					{/* cta 10*/}
-					<section className="section-cta-7 background-body">
-						<div className="box-cta-6">
-							<div className="container">
-								<div className="row align-items-center">
-									<div className="col-lg-6">
-										<div className="box-swiper">
-											<Swiper {...swiperGroup1} className="swiper-container swiper-group-1">
-												<div className="swiper-wrapper">
-													<SwiperSlide className="swiper-slide">
-														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-1.png" alt="Dynamic-Cars" />
-													</SwiperSlide>
-													<SwiperSlide className="swiper-slide">
-														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-1.png" alt="Dynamic-Cars" />
-													</SwiperSlide>
-												</div>
-												<div className="position-absolute end-0 bottom-0 p-40">
-													<div className="box-button-slider box-button-slider-team justify-content-end">
-														<div className="swiper-button-prev swiper-button-prev-style-1 swiper-button-prev-2" tabIndex={0} role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-9c1b729b91027a37b">
-															<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-																<path d="M7.99992 3.33325L3.33325 7.99992M3.33325 7.99992L7.99992 12.6666M3.33325 7.99992H12.6666" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</div>
-														<div className="swiper-button-next swiper-button-next-style-1 swiper-button-next-2" tabIndex={0} role="button" aria-label="Next slide" aria-controls="swiper-wrapper-9c1b729b91027a37b">
-															<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-																<path d="M7.99992 12.6666L12.6666 7.99992L7.99992 3.33325M12.6666 7.99992L3.33325 7.99992" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-															</svg>
-														</div>
-													</div>
-												</div>
-											</Swiper>
-										</div>
-									</div>
-									<div className="col-lg-6 ps-lg-5 mt-lg-0 mt-4">
-										<h4 className="mb-4 neutral-1000">Plan Your Trip with Us</h4>
-										<p className="text-lg-medium neutral-500 mb-4">Let us help you make your next journey smooth and enjoyable—get started today.</p>
-										<div className="row">
-											<div className="col">
-												<ul className="list-ticks-green list-ticks-green-2">
-													<li className="neutral-1000 pe-0">Detailed vehicle descriptions and images</li>
-													<li className="neutral-1000 pe-0">Filter options by vehicle type, size, and features</li>
-													<li className="neutral-1000 pe-0">Availability information in real-time</li>
-												</ul>
-											</div>
-										</div>
-										<Link className="btn btn-signin mt-2" href="/contact">
-											Contact us Now
-											<svg xmlns="http://www.w3.org/2000/svg" width={25} height={24} viewBox="0 0 25 24" fill="none">
-	<path d="M12.5 19L19.5 12L12.5 5M19.5 12L5.5 12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-</svg>
-
-										</Link>
-									</div>
-								</div>
-							</div>
-							<div className="bg-overlay position-absolute bottom-0 end-0 h-75 background-brand-2 opacity-25 z-0 rounded-start-pill" />
-						</div>
-					</section>
+					</section> */}
 					{/* Static 1 */}
 					<section className="section-static-1 background-body border-bottom">
 						<div className="container">
@@ -448,12 +392,91 @@ export default function Services() {
 							</div>
 						</div>
 					</section>
+					{/* cta 10*/}
+					<section className="section-cta-7 background-body pt-60 pb-60">
+						<div className="box-cta-6">
+							<div className="container">
+								<div className="row align-items-center">
+									<div className="col-lg-6">
+										<div className="box-swiper">
+											<Swiper {...swiperGroup1} className="swiper-container swiper-group-1">
+												<div className="swiper-wrapper">
+													<SwiperSlide className="swiper-slide">
+														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-1.jpeg" alt="Dynamic-Cars" />
+													</SwiperSlide>
+													<SwiperSlide className="swiper-slide">
+														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-2.jpeg" alt="Dynamic-Cars" />
+													</SwiperSlide>
+													<SwiperSlide className="swiper-slide">
+														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-3.jpeg" alt="Dynamic-Cars" />
+													</SwiperSlide>
+													<SwiperSlide className="swiper-slide">
+														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-5.jpeg" alt="Dynamic-Cars" />
+													</SwiperSlide>
+													<SwiperSlide className="swiper-slide">
+														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-6.jpeg" alt="Dynamic-Cars" />
+													</SwiperSlide>
+													<SwiperSlide className="swiper-slide">
+														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-7.jpeg" alt="Dynamic-Cars" />
+													</SwiperSlide>
+													<SwiperSlide className="swiper-slide">
+														<img className="rounded-12" src="/assets/imgs/cta/cta-10/img-8.jpeg" alt="Dynamic-Cars" />
+													</SwiperSlide>
+												</div>
+												<div className="position-absolute end-0 bottom-0 p-40">
+													<div className="box-button-slider box-button-slider-team justify-content-end">
+														<div className="swiper-button-prev swiper-button-prev-style-1 swiper-button-prev-2" tabIndex={0} role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-9c1b729b91027a37b">
+														<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
+  														<path d="M7.99992 3.33325L3.33325 7.99992M3.33325 7.99992L7.99992 12.6666M3.33325 7.99992H12.6666" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
+														</svg>
+
+														</div>
+														<div className="swiper-button-next swiper-button-next-style-1 swiper-button-next-2" tabIndex={0} role="button" aria-label="Next slide" aria-controls="swiper-wrapper-9c1b729b91027a37b">
+														<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
+														<path d="M7.99992 12.6666L12.6666 7.99992L7.99992 3.33325M12.6666 7.99992L3.33325 7.99992" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
+														</svg>
+
+														</div>
+													</div>
+												</div>
+											</Swiper>
+										</div>
+									</div>
+									<div className="col-lg-6 ps-lg-5 mt-lg-0 mt-4">
+										<h4 className="mb-4 neutral-1000">Plan Your Trip with Us</h4>
+										<p className="text-lg-medium neutral-500 mb-4"><strong className='neutral-800'>Ride with Dynamic Cars </strong> seamless, reliable, and ready whenever you are!</p>
+										<div className="row">
+											<div className="col">
+												<ul className="list-ticks-green list-ticks-green-2">
+													<li className="neutral-500 pe-0"><strong className='neutral-800'>Seamless Booking</strong> – Quick and hassle-free reservations</li>
+													<li className="neutral-500 pe-0"><strong className='neutral-800'>Reliable Service</strong> – Always on time, every time</li>
+													<li className="neutral-500 pe-0"><strong className='neutral-800'>Comfort & Safety</strong> – Well-maintained vehicles for a smooth ride</li>
+													<li className="neutral-500 pe-0"><strong className='neutral-800'>Anywhere, Anytime</strong> – Available whenever you need us</li>
+													<li className="neutral-500 pe-0"><strong className='neutral-800'>Transparent Pricing</strong> – No hidden fees, just fair rates</li>
+
+												</ul>
+											</div>
+										</div>
+										<Link className="btn btn-signin mt-2" href="/contact">
+											Contact us Now
+											<svg xmlns="http://www.w3.org/2000/svg" width={25} height={24} viewBox="0 0 25 24" fill="none">
+	<path d="M12.5 19L19.5 12L12.5 5M19.5 12L5.5 12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+</svg>
+
+										</Link>
+									</div>
+								</div>
+							</div>
+							<div className="bg-overlay position-absolute bottom-0 end-0 h-75 background-brand-2 opacity-25 z-0 rounded-start-pill" />
+						</div>
+					</section>
+					
 					{/* blog-1 */}
 					{/* <section className="section-box box-news background-body">
 						<div className="container">
 							<div className="row align-items-end">
 								<div className="col-md-9 mb-30 wow fadeInUp">
-									<h3 className="title-svg neutral-1000 mb-15">Upcoming Cars &amp; Events</h3>
+									<h3 className="title-svg neutral-500 mb-15">Upcoming Cars &amp; Events</h3>
 									<p className="text-lg-medium text-bold neutral-500">Stay ahead with the latest car releases and upcoming events</p>
 								</div>
 								<div className="col-md-3 position-relative mb-30 wow fadeInUp">

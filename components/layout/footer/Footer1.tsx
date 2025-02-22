@@ -50,15 +50,26 @@ export default function Footer1() {
                 Our Services
               </h6>
               <ul className="menu-footer">
-                {['Airport Transfers', 'Chauffeur Services', 'Long Distance & Cruise Transfers', 'Courier Services', 'Airport Meet and Greet', 'Event Management', 'VIP Tours', 'Wedding Services', 'School Run Services'].map((service, index) => (
-                  <li key={index}>
-                    <Link href="/services">
-                      <span className="arrow">►</span>
-                      {service}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+  {[
+    { title: 'Airport Transfers', id: 'airport' },
+    { title: 'Chauffeur Services', id: 'chauffeur' },
+    { title: 'Long Distance & Cruise Transfers', id: 'long-distance' },
+    { title: 'Courier Services', id: 'courier' },
+    { title: 'Airport Meet and Greet', id: 'meet-greet' },
+    { title: 'Event Management', id: 'event-management' },
+    { title: 'VIP Tours', id: 'vip-tours' },
+    { title: 'Wedding Services', id: 'wedding' },
+    { title: 'School Run Services', id: 'school-run' }
+  ].map((service, index) => (
+    <li key={index}>
+      <a href={`/services#${service.id}`}>
+        <span className="arrow">►</span>
+        {service.title}
+      </a>
+    </li>
+  ))}
+</ul>
+
             </div>
 
             {/* Contact Us Section */}
@@ -77,10 +88,13 @@ export default function Footer1() {
                 <Link href="tel:+442034883484">+44 20 34 88 3484</Link>
               </p>
 
-              <p>
-                <FaEnvelope className="email-icon" />
-                <Link href="mailto:bookings@dynamiccarsuk.co.uk" className='emailcontact'>bookings@dynamiccarsuk.co.uk</Link>
-              </p>
+              <p className="email-container">
+  <FaEnvelope className="email-icon" />
+  <Link href="mailto:bookings@dynamiccarsuk.co.uk" className="emailcontact">
+    bookings@dynamiccarsuk.co.uk
+  </Link>
+</p>
+
 			  </div>
               {/* Social Icons */}
               <div className="box-socials-footer d-flex justify-content-start align-items-center">

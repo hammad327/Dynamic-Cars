@@ -46,7 +46,21 @@ export default function CarsListing2() {
                 </div>
               </div>
             </div>
-
+{/* Car 4 */}
+<div className="cars-card wow fadeIn" data-wow-delay="0.1s">
+              <div className="cars-image">
+                <img src="/assets/imgs/cars-listing/cars-listing-2/car-4.png" alt="Luxury (S Class)" />
+              </div>
+              <div className="cars-info">
+                <div className="cars-title">
+                  <Link href="">Luxury (S Class)</Link>
+                </div>
+                <div className="cars-facilities">
+                  <p><i className="fa-solid fa-user-group"></i> Capacity 4</p>
+                  <p><i className="fa-solid fa-suitcase"></i> Luggage 4</p>
+                </div>
+              </div>
+            </div>
             {/* Car 3 */}
             <div className="cars-card wow fadeIn" data-wow-delay="0.1s">
               <div className="cars-image">
@@ -57,27 +71,13 @@ export default function CarsListing2() {
                   <Link href="">MPV (Vito Car)</Link>
                 </div>
                 <div className="cars-facilities">
-                  <p><i className="fa-solid fa-user-group"></i> Capacity 5</p>
-                  <p><i className="fa-solid fa-suitcase"></i> Luggage 3</p>
+                  <p><i className="fa-solid fa-user-group"></i> Capacity 8</p>
+                  <p><i className="fa-solid fa-suitcase"></i> Luggage 8</p>
                 </div>
               </div>
             </div>
 
-            {/* Car 4 */}
-            <div className="cars-card wow fadeIn" data-wow-delay="0.1s">
-              <div className="cars-image">
-                <img src="/assets/imgs/cars-listing/cars-listing-2/car-4.png" alt="Luxury (S Class)" />
-              </div>
-              <div className="cars-info">
-                <div className="cars-title">
-                  <Link href="">Luxury (S Class)</Link>
-                </div>
-                <div className="cars-facilities">
-                  <p><i className="fa-solid fa-user-group"></i> Capacity 5</p>
-                  <p><i className="fa-solid fa-suitcase"></i> Luggage 3</p>
-                </div>
-              </div>
-            </div>
+            
 
             {/* Car 5 */}
             <div className="cars-card wow fadeIn" data-wow-delay="0.1s">
@@ -89,8 +89,8 @@ export default function CarsListing2() {
                   <Link href="">Luxury MPV (V Class)</Link>
                 </div>
                 <div className="cars-facilities">
-                  <p><i className="fa-solid fa-user-group"></i> Capacity 5</p>
-                  <p><i className="fa-solid fa-suitcase"></i> Luggage 3</p>
+                  <p><i className="fa-solid fa-user-group"></i> Capacity 7</p>
+                  <p><i className="fa-solid fa-suitcase"></i> Luggage 7</p>
                 </div>
               </div>
             </div>

@@ -4391,7 +4391,7 @@ label {
 	text-align: center;
 	line-height: 24px;
 	border-radius: 50%;
-	background-color: #f2f4f6;
+	background-color: #78BC51;
 }
 
 .card-spot .card-info .card-right .card-button a svg {
@@ -5443,7 +5443,7 @@ label {
 
 .top-bar {
 	background-color: #313131;
-	padding: 10px 0px;
+	padding: 20px 5px;
 	color: var(--bs-color-white);
 }
 
@@ -5454,10 +5454,10 @@ label {
 	flex-wrap: wrap;
 }
 
-.top-bar-2 {
+/* .top-bar-2 {
 	color: var(--bs-neutral-1000);
 	padding: 0px;
-}
+} */
 
 .top-bar-2 .container-fluid {
 	display: flex;
@@ -5474,7 +5474,16 @@ label {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+	font-size: 24px;
 }
+.top-right-header .social-icon i {
+	transition: color 0.2s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .top-right-header .social-icon:hover i {
+	color: #78BC51 !important; 
+  }
+  
 
 .top-bar-2 .text-header .text-unlock {
 	color: var(--bs-neutral-0);
@@ -5491,14 +5500,18 @@ label {
 
 .top-bar-2 .text-header-info a {
 	color: #fff;
+	font-size: 24px;
 }
 
 .top-bar-2 .text-header-info a svg {
 	margin-right: 3px;
+	
 }
 
 .top-bar-2 .text-header-info .phone-head {
 	margin-right: 34px;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
 	
 }
 
@@ -5508,6 +5521,9 @@ label {
 
 .top-bar-2 .text-header-info .email-head svg {
 	fill: #fff;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .top-bar-2 .head-lang,
@@ -5590,6 +5606,7 @@ label {
 	float: left;
 	position: relative;
 	padding: 0px 7px;
+	
 }
 
 .header .main-menu li.has-children>a::after {
@@ -5633,7 +5650,7 @@ label {
 	font-family: var(--urbanist);
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 22px;
 	color: var(--bs-neutral-1000);
 	display: block;
@@ -5803,6 +5820,7 @@ label {
 	background-position: left center;
 	padding: 10px 10px 10px 45px;
 	transition-duration: 0.2s;
+	
 }
 
 /* .header .main-menu li.mega-li .mega-menu .mega-menu-inner .list-featured li a.tours {
@@ -5830,6 +5848,7 @@ label {
 	color: var(--bs-warning) !important;
 	padding-left: 40px;
 	transition-duration: 0.2s;
+	
 }
 
 .header .main-menu li.mega-li-small .mega-menu {
@@ -5864,6 +5883,7 @@ label {
 	border-radius: 12px 12px 12px 12px;
 	max-width: 333px;
 	min-width: 333px;
+	
 }
 
 .header .main-menu li.mega-li-small .mega-menu .mega-menu-inner-small.mega-menu-inner-destinations {
@@ -5888,6 +5908,7 @@ label {
 	margin-top: 8px;
 	min-width: 100%;
 	background-color: transparent;
+	
 }
 
 .header .main-menu li.mega-li-small .mega-menu .mega-menu-inner-small ul li {
@@ -7076,7 +7097,7 @@ a.icon-socials:hover svg path {
 .footer .menu-footer li a {
 	/* color: var(--bs-neutral-400); */
 	color: #363334;
-	font-size: 13px;
+	font-size: 16px;
 	text-decoration: none;
 	transition-duration: 0.2s;
 	line-height: 26px;
@@ -9128,7 +9149,7 @@ a.icon-socials:hover svg path {
 	width: 70%;
 	height: 100%;
 	opacity: 0.6;
-	background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 99.43%);
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0) 99.43%);
 }
 
 .page-header .custom-container .bg-overlay .img-banner {
@@ -10063,7 +10084,7 @@ a.icon-socials:hover svg path {
 	line-height: 38px;
 	text-align: center;
 	border-radius: 50%;
-	background-color: var(--bs-neutral-200);
+	background-color: #78BC51;
 }
 
 .swiper-button-prev-style-1 svg {
@@ -10072,10 +10093,6 @@ a.icon-socials:hover svg path {
 
 .swiper-button-prev-style-1:after {
 	display: none;
-}
-
-.swiper-button-prev-style-1:hover {
-	background-color: var(--bs-brand-2);
 }
 
 .swiper-button-prev-style-1:hover svg {
@@ -10088,7 +10105,7 @@ a.icon-socials:hover svg path {
 	line-height: 38px;
 	text-align: center;
 	border-radius: 50%;
-	background-color: var(--bs-neutral-200);
+	background-color: #78BC51;
 }
 
 .swiper-button-next-style-1 svg {
@@ -13884,6 +13901,16 @@ html, body {
   .greenbg {
 	background-color: #78BC51;
   }
+  .Text-aboutus{
+	color: #ffffff;
+	font-size: 48px;	
+	font-weight: bold;
+  }
+  .Text-services{
+	color: #78BC51;
+	font-size: 48px;
+	font-weight: bolder;
+  }
 /* Cars Listing Section */
 .cars-listing-section {
 	background-color: #f9f9f9;
@@ -13976,6 +14003,11 @@ html, body {
   @media (max-width: 576px) {
 	.cars-grid {
 	  grid-template-columns: repeat(1, 1fr);
+	}
+  }
+  @media (max-width: 576px) {
+	.coverage-area span {
+	  font-size: 14px;
 	}
   }
   

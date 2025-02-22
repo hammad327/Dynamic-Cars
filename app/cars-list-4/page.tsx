@@ -89,8 +89,8 @@ export default function CarsList4() {
 								<div className="box-top-search">
 									<div className="left-top-search">
 										<Link className="category-link text-sm-bold btn-click active" href="#">All cars</Link>
-										<Link className="category-link text-sm-bold btn-click" href="#">New cars</Link>
-										<Link className="category-link text-sm-bold btn-click" href="#">Used cars</Link>
+										{/* <Link className="category-link text-sm-bold btn-click" href="#">New cars</Link>
+										<Link className="category-link text-sm-bold btn-click" href="#">Used cars</Link> */}
 									</div>
 									
 								</div>
